@@ -8,20 +8,22 @@
 </head>
 <body>
     <nav>
-    <!--    <ul class="sidebar">
+        
+       <ul class="sidebar">
             <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"/></svg></a></li>
             <li><a href="#">Home</a></li>
             <li><a href="#">Our Package</a></li>
-            <li><a href="#">Calls Use</a></li>
-          </ul>
-          <div class="log">
+            <li><a href="#">Calls Us</a></li>
+        </ul>
+          <div class="logo">
             
-          </div>-->
-        <ul class="sidebar">
+          </div>
+        <ul>
             <h1 class="logo">OK Travel</h1>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Our Package</a></li>
-            <li><a href="#">Contact Us</a></li>
+            <li class="hideOnMobile"><a href="#">Home</a></li>
+            <li class="hideOnMobile"><a href="#">Our Package</a></li>
+            <li class="hideOnMobile"><a href="#">Contact Us</a></li>
+            <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"/></svg></a></li>
         </ul>
     </nav>
 
@@ -35,6 +37,9 @@
     <div class="container">
         <div class="image">
             <img src="assets/image1.png" alt="">
+            <img src="assets/image2.png" alt="">
+            <img src="assets/image3.png" alt="">
+            <img src="assets/image4.png" alt="">
             <p style="font-style: italic;text-transform: capitalize; 
             color: #fff; margin-top: 10px; margin-left: 30px; font-weight: 210;">
                 "Terima kasih Ok Travel"
@@ -94,29 +99,29 @@
     <div class="package-content">
         <div class="item">
             <div class="icon">
-                <img src="" alt="">
+                <img src="assets/icon1.png" alt="">
             </div>
             <div class="city-info">
-                <h3>Jepang</h3>
-                <p>Budayanya yang kental dan perkembangan teknologi yang maju menjadi tujuan banyak orang</p>
+                <h3>Darat</h3>
+                <p>Temukan Keindahan Jalur Darat Bersama Kami! Pengalaman mengemudi melintasi pemandangan menakjubkan dan budaya lokal</p>
             </div>
         </div>
         <div class="item">
             <div class="icon">
-                <img src="" alt="">
+                <img src="assets/icon2.png" alt="">
             </div>
             <div class="city-info">
-                <h3>Korea</h3>
-                <p>Dari gemerlapnya kota Seoul hingga keindahan alam Pulau Jeju, sebuah pengalaman yang tak terlupakan</p>
+                <h3>Udara</h3>
+                <p>Terbanglah Tinggi dengan Petualangan Jalur Udara Kami! Nikmati pemandangan indah dan layanan terbaik dalam perjalanan udara yang tak terlupakan.</p>
             </div>
         </div>
         <div class="item">
             <div class="icon">
-                <img src="" alt="">
+                <img src="assets/icon3.png" alt="">
             </div>
             <div class="city-info">
-                <h3>Rusia</h3>
-                <p>Dari keindahan arsitektur klasik di Moskow hingga pesona kota-kota sejarah seperti St. Petersburg</p>
+                <h3>Laut</h3>
+                <p>Jelajahi Dunia dengan Petualangan Jalur Laut Kami! Nikmati keindahan lautan, destinasi eksotis, dan kenyamanan kapal kami.</p>
             </div>
         </div>
     </div>
@@ -138,5 +143,6 @@
             <span>All rights reserved</span>
         </div>
     </div>
+    <script src="js/script.js"></script>
 </body>
 </html>
